@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>QuickQuiz</h1>
+        <div id="questions">
+            <!-- Question 1 -->
+            <div class="question">
+                <p>1. What is the largest planet in our solar system?</p>
+                <input type="radio" name="q1" value="Jupiter"> Jupiter
+                <input type="radio" name="q1" value="Saturn"> Saturn
+                <input type="radio" name="q1" value="Mars"> Mars
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question">
+                <p>2. Which gas do plants absorb from the atmosphere?</p>
+                <input type="radio" name="q2" value="Oxygen"> Oxygen
+                <input type="radio" name="q2" value="Nitrogen"> Nitrogen
+                <input type="radio" name="q2" value="Carbon Dioxide"> Carbon Dioxide
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question">
+                <p>3. What is the capital of Australia?</p>
+                <input type="radio" name="q3" value="Sydney"> Sydney
+                <input type="radio" name="q3" value="Melbourne"> Melbourne
+                <input type="radio" name="q3" value="Canberra"> Canberra
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question">
+                <p>4. Who wrote the play "Romeo and Juliet"?</p>
+                <input type="radio" name="q4" value="William Shakespeare"> William Shakespeare
+                <input type="radio" name="q4" value="George Orwell"> George Orwell
+                <input type="radio" name="q4" value="Jane Austen"> Jane Austen
+            </div>
+
+            <!-- Question 5 -->
+            <div class="question">
+                <p>5. What is the largest mammal on Earth?</p>
+                <input type="radio" name="q5" value="Elephant"> Elephant
+                <input type="radio" name="q5" value="Giraffe"> Giraffe
+                <input type="radio" name="q5" value="Blue Whale"> Blue Whale
+            </div>
+
+            <!-- Question 6 -->
+            <div class="question">
+                <p>6. What is the chemical symbol for gold?</p>
+                <input type="radio" name="q6" value="Au"> Au
+                <input type="radio" name="q6" value="Ag"> Ag
+                <input type="radio" name="q6" value="Fe"> Fe
+            </div>
+
+            <!-- Question 7 -->
+            <div class="question">
+                <p>7. How many continents are there in the world?</p>
+                <input type="radio" name="q7" value="5"> 5
+                <input type="radio" name="q7" value="6"> 6
+                <input type="radio" name="q7" value="7"> 7
+            </div>
+
+            <!-- Question 8 -->
+            <div class="question">
+                <p>8. What is the boiling point of water (in Celsius)?</p>
+                <input type="radio" name="q8" value="0"> 0
+                <input type="radio" name="q8" value="100"> 100
+                <input type="radio" name="q8" value="50"> 50
+            </div>
+
+            <!-- Question 9 -->
+            <div class="question">
+                <p>9. Which planet is known as the Red Planet?</p>
+                <input type="radio" name="q9" value="Mars"> Mars
+                <input type="radio" name="q9" value="Venus"> Venus
+                <input type="radio" name="q9" value="Earth"> Earth
+            </div>
+
+            <!-- Question 10 -->
+            <div class="question">
+                <p>10. What is the chemical symbol for oxygen?</p>
+                <input type="radio" name="q10" value="O"> O
+                <input type="radio" name="q10" value="O2"> O2
+                <input type="radio" name="q10" value="O3"> O3
+            </div>
+        </div>
+        <button id="submit-button">Submit</button>
+    </div>
+
+    <div class="result-container" style="display: none;">
+        <h2>Quiz Results</h2>
+        <p>You scored <span id="score">0</span> out of 10.</p>
+    </div>
+    <div class="answers-container" style="display: none;">
+        <h2>Correct Answers</h2>
+        <ul id="correct-answers">
+            <!-- Correct answers will be populated here -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
